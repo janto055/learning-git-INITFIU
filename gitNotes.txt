@@ -1,0 +1,31 @@
+GitHub is a repo. Git is the thingy. 
+
+Repo - place where code is stored
+Commmit- snapchot of repo
+Origin - URL of remote repo
+Remote - any repo that isnt stored on machine (GitHub repos are remote)
+Upstream - teacking info for branch we push to
+Main/Master - default repo
+
+Git Trees:
+Working Dir - whatever is on the computer at the moment; in IDE
+Index - files that are ready to committ but not yeat committed to repo
+Head - latest commit to the repo
+
+Configure for the first time:
+
+git config --global user.email "youremail@email.com"
+git config --global user.name "Your Name"
+
+--global for all repos --local for specific repos
+
+
+Commands:
+
+git init -- initializes a repository
+mkdir [name] - make directory with name
+cd [name] - change directoy name
+git init - create repo
+git remote add origin [url] - set an origin for repo
+git remote -v - display origins set
+
